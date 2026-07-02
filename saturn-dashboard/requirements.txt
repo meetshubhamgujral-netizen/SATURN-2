@@ -1,0 +1,14 @@
+streamlit>=1.36,<2.0
+pandas>=2.0
+numpy>=1.26
+plotly>=5.20
+scikit-learn>=1.4
+scipy>=1.11
+openpyxl>=3.1
+streamlit-option-menu>=0.3.12
+fpdf2>=2.7
+
+# Optional (nicer factor rotation & apriori). The app has built-in numpy/scipy
+# fallbacks and runs fully without these, so they are intentionally NOT required:
+#   factor-analyzer>=0.4
+#   mlxtend>=0.23
